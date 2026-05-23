@@ -6,9 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          B.Tech Computer Science student specializing in AR-VR & Metaverse. Proficient in C#, Java, and Python with hands-on
+          experience in building immersive 3D environments using Unity and Blender. Demonstrated success in developing
+          responsive web applications and AI-driven productivity tools. Passionate about solving complex problems through
+          scalable software solutions.
         </p>
       </div>
     </div>

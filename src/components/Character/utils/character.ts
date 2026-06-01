@@ -19,7 +19,7 @@ const setCharacter = (
         let urlToLoad: string;
         if (typeof window !== "undefined" && window.crypto && window.crypto.subtle) {
           const encryptedBlob = await decryptFile(
-            "/models/character.enc",
+            "/models/Character2.enc",
             "Character3D#@"
           );
           urlToLoad = URL.createObjectURL(new Blob([encryptedBlob]));
@@ -27,7 +27,7 @@ const setCharacter = (
           console.warn(
             "Web Crypto API (window.crypto.subtle) is not available (likely due to a non-secure HTTP context). Falling back to the unencrypted model."
           );
-          urlToLoad = "/models/character.glb";
+          urlToLoad = "/models/Character2.glb";
         }
 
         let character: THREE.Object3D;
